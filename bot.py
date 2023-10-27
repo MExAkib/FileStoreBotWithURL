@@ -79,7 +79,7 @@ async def start(bot: Client, cmd: Message):
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
                         InlineKeyboardButton("About Dev", callback_data="aboutdevs"),
-                        InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
+                        InlineKeyboardButton("Close", callback_data="closeMessage")
                     ],
                     [
                         InlineKeyboardButton("Support Group", url="https://t.me/KDrama_Chats_and_Discussions_4u"),
