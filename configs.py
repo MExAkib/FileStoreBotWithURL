@@ -18,27 +18,30 @@ class Config(object):
   BANNED_CHAT_IDS = list(set(int(x) for x in os.environ.get("BANNED_CHAT_IDS", "").split()))
   OTHER_USERS_CAN_SAVE_FILE = bool(os.environ.get("OTHER_USERS_CAN_SAVE_FILE", True))
   ABOUT_BOT_TEXT = f"""
-This is a Permanent FileStore Bot. 
-Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edit Permission, I will add save Uploaded File in Channel and Share a Shareable Link. 
-
-   ⍟────[ File Store Bot]────⍟
-
-🔸 My Name: [FileStore Bot](https://t.me/{BOT_USERNAME})
-
-🔸 Language: [Python 3](https://www.python.org)
-
-🔸 Library: [Pyrogram](https://docs.pyrogram.org)
+This is a Permanent File Store Bot. 
+Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edit Permission, I will add/save Uploaded File in Channel and Share a Shareable Link. 
+╭────[ File Store Bot]────⍟
+│
+├🔸 My Name: [File Store Bot](https://t.me/{BOT_USERNAME})
+│
+├🔸 Language: [Python 3](https://www.python.org)
+│
+├🔸 Library: [Pyrogram](https://docs.pyrogram.org)
+│
+╰──────[ 😎 ]───────────⍟
 """
   ABOUT_DEV_TEXT = f"""
-Developer: [@THExAkib](https://t.me/THExAkib)
-<b>○ Bot Creator : <a href='tg://user?id={OWNER_ID}'>This Person</a>\n○ Language : <a href='https://www.python.org/'>Python3</a>\n○ Library : <a href='https://docs.pyrogram.org/'>Pyrogram [Asyncio {__version__}]</a>\n○ Source Code : <a href='https://github.com/MExAkib/FileStoreBot2'>Click Here</a>\n○ Contact : @THExAkib\n○ Channel : <a href='https://t.me/+_CwryvJtzGA0NTk1'>Join Us</a>\n ⭐[Follow Me Here]⭐\n [<a href='https://github.com/MExAkib'>GitHub</a>] [<a href='https://www.facebook.com/MExAk1b'>Facebook</a>] [<a href='https://www.instagram.com/ig_4k1b'>Instagram</a>] [<a href='https://www.twitter.com/__4k1b__'>Twitter</a>]</b>",
+Developer: @THExAkib
+[Telegram](https://t.me/THExAkib)
+[Facebook](https://www.facebook.com/MExAk1b) 
+[Instagram](https://www.instagram.com/ig_4k1b)
+[Twitter](https://www.twitter.com/__4k1b__)
+[GitHub](https://www.github.com/MExAk1b)
+
 """
   HOME_TEXT = """
 Hello, [{}](tg://user?id={})\n\nThis is a Permanent **File Store Bot**.
-
 How to Use Bot & it's Benefits??
-
 📢 Send me any File & It will be uploaded in My Database & You will Get the File Link.
-
-⚠️ Benefits: If you have a Telegram Movie Channel or Any Copyright Channel, Then It's Useful for Daily Usage, You can Send Me Your File(s) & I will Send Permanent Link(s)s to You & Channel will be Safe from **Copygight Infringement Issues**. Check **About Bot** Section For More Details.
+⚠️ Benefits: If you have a Telegram Movie Channel or Any Copyright Channel, Then Its Useful for Daily Usage, You can Send Me Your File & I will Send Permanent Link to You & Channel will be Safe from **Copygight Infringement Issues**. Checkout **About Bot** Section For More Details.
 """
