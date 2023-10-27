@@ -18,30 +18,38 @@ class Config(object):
   BANNED_CHAT_IDS = list(set(int(x) for x in os.environ.get("BANNED_CHAT_IDS", "").split()))
   OTHER_USERS_CAN_SAVE_FILE = bool(os.environ.get("OTHER_USERS_CAN_SAVE_FILE", True))
   ABOUT_BOT_TEXT = f"""
-This is a Permanent File Store Bot. 
+This is a Permanent File Store Bot!
 Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edit Permission, I will add/save Uploaded File in Channel and Share a Shareable Link. 
-╭────[ File Store Bot]────⍟
-│
-├🔸 My Name: [File Store Bot](https://t.me/{BOT_USERNAME})
-│
-├🔸 Language: [Python 3](https://www.python.org)
-│
-├🔸 Library: [Pyrogram](https://docs.pyrogram.org)
-│
-╰──────[ 😎 ]───────────⍟
+
+⍟──────[ File Store Bot]──────⍟
+
+🔸 My Name: [File Store Bot](https://t.me/{BOT_USERNAME})
+
+🔸 Language: [Python 3](https://www.python.org)
+
+🔸 Library: [Pyrogram](https://docs.pyrogram.org)
+
 """
   ABOUT_DEV_TEXT = f"""
 Developer: @THExAkib
-[Telegram](https://t.me/THExAkib)
-[Facebook](https://www.facebook.com/MExAk1b) 
-[Instagram](https://www.instagram.com/ig_4k1b)
-[Twitter](https://www.twitter.com/__4k1b__)
-[GitHub](https://www.github.com/MExAk1b)
+
+Telegram: (https://t.me/THExAkib)
+
+Facebook: (https://www.facebook.com/MExAk1b)
+
+Instagram: (https://www.instagram.com/ig_4k1b)
+
+Twitter: (https://www.twitter.com/__4k1b__)
+
+GitHub: (https://www.github.com/MExAk1b)
 
 """
   HOME_TEXT = """
-Hello, [{}](tg://user?id={})\n\nThis is a Permanent **File Store Bot**.
+Hello, [{}](tg://user?id={})\n\nThis is a Permanent **File Store Bot**
+
 How to Use Bot & it's Benefits??
-📢 Send me any File & It will be uploaded in My Database & You will Get the File Link.
-⚠️ Benefits: If you have a Telegram Movie Channel or Any Copyright Channel, Then Its Useful for Daily Usage, You can Send Me Your File & I will Send Permanent Link to You & Channel will be Safe from **Copygight Infringement Issues**. Checkout **About Bot** Section For More Details.
+
+📢 Send me any File & It will be uploaded in My Database & You will Get the File Link(s).
+
+⚠️ Benefits: If you have a Telegram Movie Channel or Any Copyright Channel, Then Its Useful for Daily Usage, You can Send Me Your File(s) & I will Send Permanent Link(s) to You & Channel will be Safe from **Copygight Infringement Issues**. Checkout **About Bot** Section For More Details.
 """
